@@ -8,7 +8,7 @@
       :class="section.className"
       :style="section.sectionStyles"
     >
-      <div class="cdc-filler" :style="section.fillerStyles" :title="section.label">1111</div>
+      <div class="cdc-filler" :style="section.fillerStyles" :title="section.label"></div>
     </div>
   </div>
 </template>
