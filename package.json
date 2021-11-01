@@ -1,6 +1,6 @@
 {
-  "name": "vue-css-donut-chart-padcmoi",
-  "version": "1.0.0",
+  "name": "vue-css-donut-chart-padcmoi_v1",
+  "version": "1.0.2",
   "description": "Lightweight Vue component for drawing pure CSS donut charts. project resumed because it seems abandoned by its author dumptyd <dumptyd2.0@gmail.com>",
   "author": "padcmoi <juliennaskot@gmail.com>",
   "scripts": {
