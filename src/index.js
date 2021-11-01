@@ -1,9 +1,9 @@
-import Donut from './components/Donut.vue';
+import Donut from './components/Donut.vue'
 
 const DonutPlugin = {
   install(Vue) {
-    Vue.component(Donut.name, Donut);
-  }
-};
+    Vue.component(Donut.name, Donut)
+  },
+}
 
-export default DonutPlugin;
+export default DonutPlugin

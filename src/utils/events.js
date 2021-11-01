@@ -4,8 +4,8 @@ export const nativeSectionEvents = [
   'mouseleave',
   'mouseover',
   'mouseout',
-  'mousemove'
-].map(nativeEventName => ({
+  'mousemove',
+].map((nativeEventName) => ({
   nativeEventName,
-  sectionEventName: `section-${nativeEventName}`
-}));
+  sectionEventName: `section-${nativeEventName}`,
+}))

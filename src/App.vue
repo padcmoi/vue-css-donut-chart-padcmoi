@@ -4,7 +4,9 @@
 
     <footer>
       <div class="credit">
-        Made with <strong>👐</strong> and <strong>⌨️</strong> by
+        Made with
+        <strong>👐</strong> and
+        <strong>⌨️</strong> by
         <a href="https://github.com/dumptyd">dumptyd</a>.
       </div>
 

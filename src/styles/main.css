@@ -59,10 +59,13 @@
 /* Color square inside each legend item */
 
 .cdc-legend-item-color {
-  height: 1.25em;
-  width: 1.25em;
-  border-radius: 2px;
-  margin-right: 0.5em;
+  height: auto;
+  width: auto;
+  border-radius: .25em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-weight: bold;
+  padding: .2em;
 }
 
 /* Container for all the sections of the donut */

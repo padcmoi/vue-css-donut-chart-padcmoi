@@ -3630,12 +3630,12 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7d567bfa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Donut.vue?vue&type=template&id=185716cb&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cdc-container",style:(_vm.placementStyles.container)},[_c('div',{ref:"donut",staticClass:"cdc",style:(_vm.donutStyles)},[_c('donut-sections',_vm._g({attrs:{"sections":_vm.donutSections,"start-angle":_vm.startAngle}},_vm.sectionListeners)),_c('div',{staticClass:"cdc-overlay",style:(_vm.overlayStyles)},[_c('div',{staticClass:"cdc-text",style:(_vm.donutTextStyles)},[_vm._t("default",function(){return [_vm._v(_vm._s(_vm.text))]})],2)])],1),_vm._t("legend",function(){return [(_vm.hasLegend)?_c('div',{staticClass:"cdc-legend",style:(_vm.placementStyles.legend)},_vm._l((_vm.legend),function(item,idx){return _c('span',{key:idx,staticClass:"cdc-legend-item",attrs:{"title":item.percent}},[_c('span',{staticClass:"cdc-legend-item-color",style:(item.styles)}),_c('span',[_vm._v(_vm._s(item.label))])])}),0):_vm._e()]})],2)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7d567bfa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Donut.vue?vue&type=template&id=87ff35ba&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cdc-container",style:(_vm.placementStyles.container)},[_c('div',{ref:"donut",staticClass:"cdc",style:(_vm.donutStyles)},[_c('donut-sections',_vm._g({attrs:{"sections":_vm.donutSections,"start-angle":_vm.startAngle}},_vm.sectionListeners)),_c('div',{staticClass:"cdc-overlay",style:(_vm.overlayStyles)},[_c('div',{staticClass:"cdc-text",style:(_vm.donutTextStyles)},[_vm._t("default",function(){return [_vm._v(_vm._s(_vm.text))]})],2)])],1),_vm._t("legend",function(){return [(_vm.hasLegend)?_c('div',{staticClass:"cdc-legend",style:(_vm.placementStyles.legend)},_vm._l((_vm.legend),function(item,idx){return _c('span',{key:idx,staticClass:"cdc-legend-item",attrs:{"title":item.percent}},[_c('span',{staticClass:"cdc-legend-item-color",style:(item.styles)},[_vm._v(_vm._s(_vm.getValue(idx)))]),_c('span',[_vm._v(_vm._s(item.label))])])}),0):_vm._e()]})],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Donut.vue?vue&type=template&id=185716cb&
+// CONCATENATED MODULE: ./src/components/Donut.vue?vue&type=template&id=87ff35ba&
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 function _defineProperty(obj, key, value) {
@@ -3749,6 +3749,9 @@ var es_symbol_description = __webpack_require__("e01a");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.iterator.js
 var es_symbol_iterator = __webpack_require__("d28b");
 
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.iterator.js
+var es_array_iterator = __webpack_require__("e260");
+
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.iterator.js
 var es_string_iterator = __webpack_require__("3ca3");
 
@@ -3756,6 +3759,7 @@ var es_string_iterator = __webpack_require__("3ca3");
 var web_dom_collections_iterator = __webpack_require__("ddb0");
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
+
 
 
 
@@ -3846,12 +3850,12 @@ function sectionValidator(section) {
     return acc && valid;
   }, true);
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7d567bfa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/DonutSections.vue?vue&type=template&id=cafc83a2&
-var DonutSectionsvue_type_template_id_cafc83a2_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cdc-sections",style:(_vm.containerStyles)},_vm._l((_vm.donutSections),function(section,idx){return _c('div',_vm._g({key:idx,staticClass:"cdc-section",class:section.className,style:(section.sectionStyles)},section.listeners),[_c('div',{staticClass:"cdc-filler",style:(section.fillerStyles),attrs:{"title":section.label}})])}),0)}
-var DonutSectionsvue_type_template_id_cafc83a2_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7d567bfa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/DonutSections.vue?vue&type=template&id=f1f4779a&
+var DonutSectionsvue_type_template_id_f1f4779a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cdc-sections",style:(_vm.containerStyles)},_vm._l((_vm.donutSections),function(section,idx){return _c('div',_vm._g({key:idx,staticClass:"cdc-section",class:section.className,style:(section.sectionStyles)},section.listeners),[_c('div',{staticClass:"cdc-filler",style:(section.fillerStyles),attrs:{"title":section.label}},[_vm._v("1111")])])}),0)}
+var DonutSectionsvue_type_template_id_f1f4779a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/DonutSections.vue?vue&type=template&id=cafc83a2&
+// CONCATENATED MODULE: ./src/components/DonutSections.vue?vue&type=template&id=f1f4779a&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/DonutSections.vue?vue&type=script&lang=js&
 
@@ -3859,6 +3863,11 @@ var DonutSectionsvue_type_template_id_cafc83a2_staticRenderFns = []
 
 
 
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4058,8 +4067,8 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   components_DonutSectionsvue_type_script_lang_js_,
-  DonutSectionsvue_type_template_id_cafc83a2_render,
-  DonutSectionsvue_type_template_id_cafc83a2_staticRenderFns,
+  DonutSectionsvue_type_template_id_f1f4779a_render,
+  DonutSectionsvue_type_template_id_f1f4779a_staticRenderFns,
   false,
   null,
   null,
@@ -4080,6 +4089,7 @@ var main = __webpack_require__("7e79");
 
 
 
+//
 //
 //
 //
@@ -4244,7 +4254,8 @@ var main = __webpack_require__("7e79");
 
         var color = section.color || utils_colors[currentDefaultColorIdx++];
         degreeArr.forEach(function (degree) {
-          // limit to 2 decimal digits to avoid floating point arithmetic issues
+          console.log(degree); // limit to 2 decimal digits to avoid floating point arithmetic issues
+
           var consumedWithCurrent = Number((consumedDegrees + degree).toFixed(2));
 
           if (consumedWithCurrent > degreesInASection) {
@@ -4339,6 +4350,9 @@ var main = __webpack_require__("7e79");
     }
   },
   methods: {
+    getValue: function getValue(index) {
+      return this.sections[index] && this.sections[index].value || 0;
+    },
     recalcFontSize: function recalcFontSize() {
       var _this4 = this;
 
@@ -4355,7 +4369,7 @@ var main = __webpack_require__("7e79");
           if (_this4.donutEl) widthInPx = _this4.donutEl.clientWidth;else widthInPx = null;
         }
 
-        _this4.fontSize = widthInPx ? "".concat((widthInPx * scaleDownBy).toFixed(2), "px") : '1em';
+        _this4.fontSize = widthInPx ? "".concat((widthInPx * scaleDownBy).toFixed(2), "px") : '10em';
       });
     },
     emitSectionEvent: function emitSectionEvent(sectionEventName) {
