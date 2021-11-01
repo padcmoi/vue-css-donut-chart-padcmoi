@@ -128,8 +128,7 @@ export default {
         const color = section.color || defaultColors[currentDefaultColorIdx++]
 
         degreeArr.forEach((degree) => {
-          console.log(degree)
-          // limit to 2 decimal digits to avoid floating point arithmetic issues
+           // limit to 2 decimal digits to avoid floating point arithmetic issues
           const consumedWithCurrent = Number(
             (consumedDegrees + degree).toFixed(2)
           )
